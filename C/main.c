@@ -7,7 +7,24 @@
 #include <limits.h>
 #include <float.h>
 #include <time.h>
-
+#include <assert.h>
+#include <complex.h>
+#include <errno.h>
+#include <fenv.h>
+#include <inttypes.h>
+#include <iso646.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdalign.h>
+#include <stdarg.h>
+#include <stdatomic.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdnoreturn.h>	
+#include <tgmath.h>		
+#include <uchar.h>	
+#include <wctype.h>
 
 int main() {
     int age;
