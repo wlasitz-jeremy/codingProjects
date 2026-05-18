@@ -1,7 +1,9 @@
-public class  Motorcycle {
-    String make = "Yamaha";
-    String model = "RZV500";
-    int year = 1984;
-    double price = 30000.00;
+public class Main {
+    public static void main(String[] args) {
 
+        Motorcycle projectBike = new Motorcycle();
+        System.out.println(projectBike.make);
+        System.out.println(projectBike.model);
+        System.out.println(projectBike.year);
+    }
 }
