@@ -42,7 +42,7 @@
 //     return 0;
 // }
 
-int main(){
+int digitalClock(){
     //This program is a working digital clock that displays the current time in hours, minutes, and seconds.
     time_t rawtime =0;
     struct tm *ptime = NULL;
