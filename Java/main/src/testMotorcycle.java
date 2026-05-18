@@ -5,5 +5,8 @@ public class testMotorcycle {
         System.out.println(projectBike.make);
         System.out.println(projectBike.model);
         System.out.println(projectBike.year);
+
+            projectBike.start();
+            projectBike.stop();
     }
 }
