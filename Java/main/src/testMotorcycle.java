@@ -8,5 +8,8 @@ public class testMotorcycle {
 
             projectBike.start();
             projectBike.stop();
+            projectBike.ride();
+            projectBike.breaking();
+
     }
 }

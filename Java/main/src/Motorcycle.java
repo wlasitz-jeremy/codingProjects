@@ -6,11 +6,17 @@ public class  Motorcycle {
     boolean isRunning = false;
 
     void start() {
-        
-        System.out.println("The motorcycle is starting.");
+        isRunning = true;
+        System.out.printf("The motorcycle is starting.\n");
     }
     void stop() {
-        System.out.println("The motorcycle is stopping.");
+        isRunning = false;
+        System.out.printf("The motorcycle is stopping.\n");
     }
-    
+    void ride () {
+        System.out.printf("The are riding the %s.\n ", model);
+    }
+    void breaking() {
+        System.out.printf("The motorcycle is breaking.\n");
+    }
 }
