@@ -25,6 +25,7 @@
 #include <tgmath.h>		
 #include <uchar.h>	
 #include <wctype.h>
+#include <unistd.h>
 
 int main() {
     int age;
