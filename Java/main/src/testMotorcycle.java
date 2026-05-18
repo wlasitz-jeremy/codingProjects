@@ -1,4 +1,4 @@
-public class Main {
+public class testMotorcycle {
     public static void main(String[] args) {
 
         Motorcycle projectBike = new Motorcycle();
